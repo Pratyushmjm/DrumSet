@@ -1,0 +1,96 @@
+body
+{
+    background-color: aqua;
+    /* text-align:c/enter; */
+    margin:auto;
+}
+
+#header
+{
+    text-align: center;
+    position: relative;
+       color: blue;
+    margin: 100px;
+    font-size:100px;
+}
+.firstpart{
+    display: inline-block;
+    position: relative;
+    size: 200px;
+    top:100px;
+
+
+}
+
+#logo{
+    height:100px;
+    width:100px;
+    border-radius: 100px;
+position:fixed;
+left: 340px;
+top:110px;
+}
+
+.drums{
+    height: 250px;
+    margin:100px;
+    position: relative;
+    display:inline-block;
+    
+   
+}
+
+
+
+.w ,.a,.s,.d,.j,.k,.l{
+    position: relative;
+top:50px;
+left:200px;
+height:130px;
+width:130px;
+font-size: 80px;
+color:tomato;
+border:1px;
+border-radius: 10px;
+
+
+
+}
+
+.w{
+    background-image:url("img/tom1.png") ;
+}
+
+.a{
+    background-image:url("img/tom2.png") ;
+
+}
+
+.s{
+    background-image:url("img/tom3.png") ;
+
+}
+
+.d{
+    background-image:url("img/tom4.png") ;
+
+}
+
+.j{
+    background-image:url("img/snare.png") ;
+
+}
+
+.k{
+    background-image:url("img/crash.png") ;
+
+}
+.l{
+    background-image:url("img/kick.png") ;
+
+}
+
+.pressed{
+    box-shadow:0 3px 4px 0 #DBEDF3;
+    opacity:0.5;
+}
